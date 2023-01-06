@@ -3,7 +3,7 @@
     <div class="text-lg font-semibold text-gray-50 rounded-xl border-4 border-slate-800 hover:border-red-400 cursor-pointer">
         <a href="https://dev-recipes.us/" target="_blank">
             <div class="mb-2">
-                <img class="w-full h-72 rounded-t-md object-cover" src="../assets/images/recipes.png" alt="Recipes" />
+                <img class="w-full h-72 rounded-t-md object-cover" src="/images/recipes.png" alt="Recipes" />
             </div>
         </a>
         <div class="p-3 bg-slate-800 rounded-b-md">
@@ -21,7 +21,7 @@
     <div class="text-lg font-semibold text-gray-50 rounded-xl border-4 border-slate-800 hover:border-red-400 cursor-pointer">
         <a href="https://contact-store.us/" target="_blank">
             <div class="mb-2 flex justify-center">
-                <img class="w-full h-72 rounded-t-md object-cover" src="../assets/images/contacts.png" alt="Contacts" />
+                <img class="w-full h-72 rounded-t-md object-cover" src="/images/contacts.png" alt="Contacts" />
             </div>
         </a>
         <div class="p-3 bg-slate-800 rounded-b-md">

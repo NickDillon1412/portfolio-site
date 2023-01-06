@@ -4,7 +4,7 @@
       <li v-for="technology in technologies" :key="technology.title" class="hover:bg-gray-100 hover:rounded-lg p-2 w-36">
         <a :href="technology.url" target="_blank">
           <div class="flex justify-center mb-2">
-            <img :src="'../../src/assets/images/' + technology.image" :alt="technology.title" />
+            <img :src="`../images/${technology.image}`" :alt="technology.title" />
           </div>
           <div class="text-center">
             <h1 class="font-semibold text-xl">{{ technology.title }}</h1>
