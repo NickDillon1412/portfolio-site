@@ -21,22 +21,22 @@ import { ref } from 'vue';
 const technologies = ref([
   {
     url: 'https://laravel.com',
-    image: '/src/assets/images/laravel.svg',
+    image: '../assets/images/laravel.svg',
     title: 'Laravel'
   },
   {
     url: 'https://vuejs.org/',
-    image: '/src/assets/images/vue.svg',
+    image: '../assets/images/vue.svg',
     title: 'Vue.js'
   },
   {
     url: 'https://tailwindcss.com/',
-    image: '/src/assets/images/tailwindcss.svg',
+    image: '../assets/images/tailwindcss.svg',
     title: 'Tailwind CSS'
   },
   {
     url: 'https://inertiajs.com/',
-    image: '/src/assets/images/inertia.svg',
+    image: '../assets/images/inertia.svg',
     title: 'Inertia.js'
   },
 ]);
