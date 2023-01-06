@@ -1,39 +1,32 @@
-<script setup>
-import { ref } from "vue";
-import GitHubIcon from "~icons/mdi/github";
-import LinkedInIcon from "~icons/mdi/linkedin";
-import TwitterIcon from "~icons/mdi/twitter";
-
-const clicked = ref(false);
-
-const onClick = () => {
-  clicked.value = !clicked.value;
-};
-</script>
-
 <template>
-  <main>
-    <!-- <TheWelcome /> -->
-    <div class="flex justify-center p-6 mt-8">
-      <h1
-        @click="onClick"
-        :class="[clicked ? 'text-green-600' : 'text-gray-900']"
-        class="font-bold text-6xl cursor-default"
-      >
-        Nick Dillon
-      </h1>
+  <div class="text-gray-800">
+    <div class="flex items-center justify-center mx-auto mb-7 mt-10 w-9/12">
+      <div class="flex items-center justify-between space-x-2">
+        <div class="flex flex-col px-4">
+          <h1 class="font-bold text-4xl mb-5">A little about me...</h1>
+          <p class="font-semibold text-xl mr-8">
+            Hey! I'm Nick, and I'm a full stack web developer. I love creating web applications, solving real-world problems, and learning new things every day. I am also a huge fan of coffee, and I play the drums.
+          </p>
+          <Socials class="mt-5" />
+        </div>
+        <img class="rounded-full w-72 h-72" src="../assets/images/profile.jpeg" alt="Profile Image">
+      </div>
     </div>
 
-    <div class="flex justify-center mx-auto w-3/12 space-x-6 p-4">
-      <a href="https://twitter.com/NickDillon1412">
-        <TwitterIcon width="40px" height="40px" />
-      </a>
-      <a href="https://github.com/NickDillon1412">
-        <GitHubIcon width="40px" height="40px" />
-      </a>
-      <a href="https://www.linkedin.com/in/nickdillon12/">
-        <LinkedInIcon width="40px" height="40px" />
-      </a>
+    <div class="flex flex-col items-center justify-center mt-36">
+      <h1 class="text-3xl font-semibold mb-3">Technologies I use on a daily basis:</h1>
+      <Technologies />
     </div>
-  </main>
+
+    <div class="flex flex-col items-center justify-center mt-40 mb-14">
+      <h1 class="text-3xl font-semibold mb-3">A couple of my projects:</h1>
+      <Projects />
+    </div>
+  </div>
 </template>
+
+<script setup>
+import Technologies from "../components/Technologies.vue";
+import Projects from "../components/Projects.vue";
+import Socials from "../components/Socials.vue";
+</script>
