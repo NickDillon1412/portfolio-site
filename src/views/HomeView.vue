@@ -9,7 +9,7 @@
           </p>
           <Socials class="mt-5" />
         </div>
-        <img class="rounded-full w-72 h-72" src="/images/profile.jpeg" alt="Profile Image">
+        <img class="rounded-full w-72 h-72" src="/images/profile.jpg" alt="Profile Image">
       </div>
     </div>
 
