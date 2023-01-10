@@ -5,7 +5,7 @@
         <div class="flex flex-col px-4 mb-4 max-w-lg">
           <h1 class="font-bold text-4xl mb-5 text-center sm:text-left">A little about me...</h1>
           <p class="font-semibold text-xl sm:mr-8 sm:pl-0">
-            Hey! I'm Nick, and I'm a full stack web developer. I love creating web applications, solving real-world problems, and learning new things every day. I am also a huge fan of coffee, and I play the drums.
+            Hey! I'm Nick, and I'm a full stack developer. I love creating web applications, solving real-world problems, and learning new things every day. I'm also a huge fan of coffee, I love music, and I play the drums.
           </p>
           <Socials class="mt-5 mb-5 pl-3 sm:pl-0" />
         </div>
