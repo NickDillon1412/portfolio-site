@@ -21,7 +21,7 @@
     <div class="flex flex-col items-center justify-center mt-24 sm:mt-32 mb-14">
       <div class="p-4">
         <h1 class="text-3xl font-semibold text-center w-9/12 mb-3 mx-auto">A couple of my projects:</h1>
-        <Projects />
+        <Projects class="pl-3 pr-3" />
       </div>
     </div>
   </div>
