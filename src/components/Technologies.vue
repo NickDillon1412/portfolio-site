@@ -1,6 +1,6 @@
 <template>
-  <div class="flex justify-center p-4">
-    <ul class="flex space-x-4">
+  <div class="sm:flex sm:justify-center p-4">
+    <ul class="grid grid-cols-2 gap-8 sm:flex">
       <li v-for="technology in technologies" :key="technology.title" class="hover:bg-gray-100 hover:rounded-lg p-2 w-36">
         <a :href="technology.url" target="_blank">
           <div class="flex justify-center mb-2">
