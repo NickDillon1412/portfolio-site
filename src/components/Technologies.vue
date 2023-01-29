@@ -25,6 +25,11 @@ const technologies = ref([
     title: 'Laravel'
   },
   {
+    url: 'https://laravel-livewire.com',
+    image: 'livewire.svg',
+    title: 'Livewire'
+  },
+  {
     url: 'https://vuejs.org/',
     image: 'vue.svg',
     title: 'Vue.js'
