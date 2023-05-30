@@ -2,8 +2,8 @@
   <div class="flex flex-col sm:flex-row items-center justify-center mx-auto">
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 gap-y-5 mt-6 mb-6">
       <div class="text-lg sm:w-10/12 mx-auto font-semibold text-gray-50 bg-slate-800 rounded-xl border-4 border-slate-800 hover:border-red-400 cursor-pointer">
-          <a href="https://contact-store.us/" target="_blank">
-              <div class="">
+          <a href="https://github.com/NickDillon1412/Contacts" target="_blank">
+              <div>
                   <img class="object-cover w-full h-64 sm:h-64 rounded-t-md" src="/images/contacts.png" alt="Contacts" />
               </div>
           </a>
@@ -21,7 +21,7 @@
       </div>
 
       <div class="text-lg sm:w-10/12 mx-auto font-semibold text-gray-50 bg-slate-800 rounded-xl border-4 border-slate-800 hover:border-red-400 cursor-pointer">
-          <a href="https://dev-recipes.us/" target="_blank">
+          <a href="https://github.com/NickDillon1412/Recipe-App" target="_blank">
               <div class="">
                   <img class="object-cover items-center w-full h-64 sm:h-64 rounded-t-md" src="/images/recipes.png" alt="Recipes" />
               </div>
