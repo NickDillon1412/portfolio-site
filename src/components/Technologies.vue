@@ -1,48 +1,70 @@
 <template>
-  <div class="sm:flex sm:justify-center p-4">
-    <ul class="grid grid-cols-2 gap-8 sm:flex">
-      <li v-for="technology in technologies" :key="technology.title" class="hover:bg-gray-100 hover:rounded-lg p-2 w-36">
-        <a :href="technology.url" target="_blank">
-          <div class="flex justify-center mb-2">
-            <img :src="`../images/${technology.image}`" :alt="technology.title" />
-          </div>
-          <div class="text-center">
-            <h1 class="font-semibold text-xl">{{ technology.title }}</h1>
-          </div>
-        </a>
-      </li>
-    </ul>
+  <div class="p-4 md:space-y-12 space-y-2">
+      <div class="grid grid-cols-2 gap-4 md:flex md:justify-center md:space-x-2 flex:space-y-4 md:space-y-0">
+        <div v-for="technology in technologies.tallStack" :key="technology.title" class="hover:bg-gray-100 hover:rounded-lg p-2 w-36">
+          <a :href="technology.url" target="_blank">
+            <div class="flex justify-center mb-1.5">
+              <img :src="`../images/${technology.image}`" :alt="technology.title" />
+            </div>
+            <div class="text-center">
+              <h1 class="font-semibold text-xl">{{ technology.title }}</h1>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 gap-4 md:flex md:justify-center md:space-x-2 flex:space-y-4 md:space-y-0">
+        <div v-for="technology in technologies.js" :key="technology.title" class="row-start-2 hover:bg-gray-100 hover:rounded-lg p-2 w-36">
+          <a :href="technology.url" target="_blank">
+            <div class="flex justify-center mb-1.5">
+              <img :src="`../images/${technology.image}`" :alt="technology.title" />
+            </div>
+            <div class="text-center">
+              <h1 class="font-semibold text-xl">{{ technology.title }}</h1>
+            </div>
+          </a>
+        </div>
+      </div>
   </div>
 </template>
 
 <script setup>
 import { ref } from 'vue';
 
-const technologies = ref([
-  {
-    url: 'https://laravel.com',
-    image: 'laravel.svg',
-    title: 'Laravel'
+const technologies = ref({
+  tallStack: {
+    tailwindcss: {
+      url: 'https://tailwindcss.com/',
+      image: 'tailwindcss.svg',
+      title: 'Tailwind CSS'
+    },
+    alpinejs: {
+      url: 'https://alpinejs.dev/',
+      image: 'alpinejs.svg',
+      title: 'Alpine.js'
+    },
+    laravel: {
+      url: 'https://laravel.com',
+      image: 'laravel.svg',
+      title: 'Laravel'
+    },
+    livewire: {
+      url: 'https://laravel-livewire.com',
+      image: 'livewire.svg',
+      title: 'Livewire'
+    },
   },
-  {
-    url: 'https://vuejs.org/',
-    image: 'vue.svg',
-    title: 'Vue.js'
-  },
-  {
-    url: 'https://tailwindcss.com/',
-    image: 'tailwindcss.svg',
-    title: 'Tailwind CSS'
-  },
-  {
-    url: 'https://inertiajs.com/',
-    image: 'inertia.svg',
-    title: 'Inertia.js'
-  },
-  {
-    url: 'https://laravel-livewire.com',
-    image: 'livewire.svg',
-    title: 'Livewire'
+  js: {
+    vuejs: {
+      url: 'https://vuejs.org/',
+      image: 'vue.svg',
+      title: 'Vue.js'
+    },
+    inertiajs: {
+      url: 'https://inertiajs.com/',
+      image: 'inertia.svg',
+      title: 'Inertia.js'
+    }
   }
-]);
+});
 </script>
