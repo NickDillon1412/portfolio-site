@@ -1,6 +1,6 @@
 <template>
-    <div class="w-10/12 p-10 rounded-md">
-        <ol class="relative border-l border-gray-200 space-y-14 dark:border-gray-700">                  
+    <div class="w-10/12 px-2 py-8 rounded-md">
+        <ul class="relative border-l border-gray-200 space-y-14 dark:border-gray-700">                  
             <li v-for="work in workExperience" :key="work.title" class="ml-6">      
                 <span class="absolute flex items-center justify-center w-8 h-8 bg-blue-100 rounded-full -left-4 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-950">
                     <img class="shadow-lg" :src="`../images/${work.image}`" :alt="work.title"/>
@@ -13,7 +13,7 @@
                     </div>
                 </div>
             </li>
-        </ol>
+        </ul>
     </div>
 </template>
 
