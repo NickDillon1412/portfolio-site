@@ -7,7 +7,7 @@
           <p class="text-xl font-semibold sm:mr-8 sm:pl-0">
             Hey! I'm Nick, and I'm a full stack developer. I love creating web applications, solving real-world problems, and learning new things every day. I'm also a huge fan of coffee, I love music, and I play the drums.
           </p>
-          <Socials class="pl-0 mt-5 mb-5" />
+          <Socials class="pl-0 mt-5 mb-20 md:mb-5" />
         </div>
         <img class="rounded-full w-72 h-72" src="/images/profile.jpg" alt="Profile Image">
       </div>
