@@ -3,7 +3,7 @@
       class="min-h-screen bg-[#18192c]"
     >
     <div class="p-2 bg-[#38eba4]"></div>
-      <header class="p-6 mx-auto text-center">
+      <header class="p-6 mx-auto mt-5 text-center md:mt-0">
         <RouterLink to="/" name="Home">
           <h1 class="mt-12 mb-3 text-6xl font-bold text-slate-100">
             Nick Dillon
