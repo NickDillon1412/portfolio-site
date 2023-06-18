@@ -24,7 +24,7 @@ const workExperience = ref({
     gray: {
         title: 'Gray Television',
         position: 'Digital Applications Developer',
-        time: 'April 2023',
+        time: 'April 2023 - Present',
         image: 'gray-logo.png'
     },
     buildOnline: {
