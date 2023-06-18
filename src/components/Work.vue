@@ -7,8 +7,10 @@
                 </span>
                 <div class="items-center justify-between ml-2 shadow-sm sm:flex">
                     <time class="mb-1 text-xs font-normal text-slate-100 sm:order-last sm:mb-0 whitespace-nowrap">{{ work.time }}</time>
-                    <div class="space-y-1 text-sm text-gray-100">
-                        <h1 class="text-xl font-semibold">{{ work.title }}</h1>
+                    <div class="text-sm text-gray-100">
+                        <a class="cursor-pointer hover:text-slate-400" :href="work.url" target="_blank">
+                            <h1 class="text-xl font-semibold">{{ work.title }}</h1>
+                        </a>
                         <h2 class="text-sm">{{ work.position }}</h2>
                     </div>
                 </div>
@@ -22,12 +24,14 @@ import { ref } from 'vue';
 
 const workExperience = ref({
     gray: {
+        url: 'https://gray.tv/',
         title: 'Gray Television',
         position: 'Digital Applications Developer',
         time: 'April 2023 - Present',
         image: 'gray-logo.png'
     },
     buildOnline: {
+        url: 'https://www.buildonline.io/',
         title: 'Build Online',
         position: 'Full Stack Developer',
         time: 'Summer 2021',
