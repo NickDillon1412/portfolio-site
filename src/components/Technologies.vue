@@ -1,26 +1,26 @@
 <template>
-  <div class="p-4 md:space-y-12 space-y-2">
+  <div class="p-4 space-y-2 md:space-y-12">
       <div class="grid grid-cols-2 gap-4 md:flex md:justify-center md:space-x-2 flex:space-y-4 md:space-y-0">
-        <div v-for="technology in technologies.tallStack" :key="technology.title" class="hover:bg-gray-100 hover:rounded-lg p-2 w-36">
+        <div v-for="technology in technologies.tallStack" :key="technology.title" class="p-2 opacity-85 hover:bg-[#1e2037] hover:rounded w-36">
           <a :href="technology.url" target="_blank">
             <div class="flex justify-center mb-1.5">
               <img :src="`../images/${technology.image}`" :alt="technology.title" />
             </div>
             <div class="text-center">
-              <h1 class="font-semibold text-xl">{{ technology.title }}</h1>
+              <h1 class="text-xl font-semibold">{{ technology.title }}</h1>
             </div>
           </a>
         </div>
       </div>
 
       <div class="grid grid-cols-1 gap-4 md:flex md:justify-center md:space-x-2 flex:space-y-4 md:space-y-0">
-        <div v-for="technology in technologies.js" :key="technology.title" class="row-start-2 hover:bg-gray-100 hover:rounded-lg p-2 w-36">
+        <div v-for="technology in technologies.js" :key="technology.title" class="row-start-2 p-2 opacity-85 hover:bg-[#1e2037] hover:rounded w-36">
           <a :href="technology.url" target="_blank">
             <div class="flex justify-center mb-1.5">
               <img :src="`../images/${technology.image}`" :alt="technology.title" />
             </div>
             <div class="text-center">
-              <h1 class="font-semibold text-xl">{{ technology.title }}</h1>
+              <h1 class="text-xl font-semibold">{{ technology.title }}</h1>
             </div>
           </a>
         </div>
