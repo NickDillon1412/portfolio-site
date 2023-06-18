@@ -3,7 +3,7 @@
         <ol class="relative border-l border-gray-200 space-y-14 dark:border-gray-700">                  
             <li v-for="work in workExperience" :key="work.title" class="ml-6">      
                 <span class="absolute flex items-center justify-center w-8 h-8 bg-blue-100 rounded-full -left-4 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-950">
-                    <img class="shadow-lg" :src="work.image" :alt="work.title"/>
+                    <img class="shadow-lg" :src="`../images/${work.image}`" :alt="work.title"/>
                 </span>
                 <div class="items-center justify-between ml-2 shadow-sm sm:flex">
                     <time class="mb-1 text-xs font-normal text-slate-100 sm:order-last sm:mb-0 whitespace-nowrap">{{ work.time }}</time>
@@ -25,13 +25,13 @@ const workExperience = ref({
         title: 'Gray Television',
         position: 'Digital Applications Developer',
         time: 'April 2023',
-        image: '../../public/images/gray-logo.png'
+        image: 'gray-logo.png'
     },
     buildOnline: {
         title: 'Build Online',
         position: 'Full Stack Developer',
         time: 'Summer 2021',
-        image: '../../public/images/buildonline-logo.png' 
+        image: 'buildonline-logo.png' 
     }
 });
 </script>
