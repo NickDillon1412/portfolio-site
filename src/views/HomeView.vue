@@ -1,5 +1,5 @@
 <template>
-  <div class="text-slate-100">
+  <div class="text-[#18192c] dark:text-slate-100">
     <div class="flex items-center justify-center w-11/12 mx-auto mt-1 md:mt-8">
       <div class="flex flex-col items-center md:flex-row sm:justify-between">
         <div class="flex flex-col max-w-lg px-4 mb-4">
@@ -13,14 +13,14 @@
       </div>
     </div>
 
-    <div class="flex flex-col items-center justify-center mt-24 sm:mt-32 text-slate-100">
+    <div class="flex flex-col items-center justify-center mt-24 sm:mt-32 text-[#18192c] dark:text-slate-100">
       <h1 class="w-9/12 mb-3 text-3xl font-semibold text-center">Technologies I use on a daily basis:</h1>
       <Technologies />
     </div>
 
-    <div class="mt-24 sm:mt-32 text-slate-100">
+    <div class="mt-24 sm:mt-32 text-[#18192c] dark:text-slate-100">
       <h1 class="w-9/12 mx-auto text-3xl font-semibold text-center mb-7">My Work Experience</h1>
-      <div class="flex justify-center w-10/12 mx-auto border rounded-md md:w-6/12 lg:4/12 border-slate-700">
+      <div class="flex justify-center w-10/12 mx-auto border rounded-md md:w-6/12 lg:4/12 border-slate-300 dark:border-slate-700">
         <Work />
       </div>
     </div>
