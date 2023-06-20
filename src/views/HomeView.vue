@@ -20,7 +20,7 @@
 
     <div class="mt-24 sm:mt-32 text-[#18192c] dark:text-slate-100">
       <h1 class="w-9/12 mx-auto text-3xl font-semibold text-center mb-7">My work experience:</h1>
-      <div class="flex justify-center w-10/12 mx-auto border-2 rounded-md md:w-6/12 lg:4/12 border-slate-300 dark:border-slate-700">
+      <div class="flex justify-center w-10/12 mx-auto border-2 rounded-md md:max-w-xl border-slate-300 dark:border-slate-700">
         <Work />
       </div>
     </div>
