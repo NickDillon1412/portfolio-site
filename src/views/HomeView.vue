@@ -9,7 +9,7 @@
           </p>
           <Socials class="pl-0 mt-5 mb-20 md:mb-5" />
         </div>
-        <img class="rounded-full w-72 h-72" src="/images/profile.jpg" alt="Profile Image">
+        <img class="rounded-full shadow-md w-72 h-72" src="/images/profile.jpg" alt="Profile Image">
       </div>
     </div>
 
@@ -19,15 +19,15 @@
     </div>
 
     <div class="mt-24 sm:mt-32 text-[#18192c] dark:text-slate-100">
-      <h1 class="w-9/12 mx-auto text-3xl font-semibold text-center mb-7">My Work Experience</h1>
-      <div class="flex justify-center w-10/12 mx-auto border rounded-md md:w-6/12 lg:4/12 border-slate-300 dark:border-slate-700">
+      <h1 class="w-9/12 mx-auto text-3xl font-semibold text-center mb-7">My work experience:</h1>
+      <div class="flex justify-center w-10/12 mx-auto border-2 rounded-md md:w-6/12 lg:4/12 border-slate-300 dark:border-slate-700">
         <Work />
       </div>
     </div>
 
     <div class="flex flex-col items-center justify-center mt-24 sm:mt-32 mb-14">
       <div class="p-4">
-        <h1 class="w-9/12 mx-auto mb-3 text-3xl font-semibold text-center">A couple of my projects:</h1>
+        <h1 class="w-9/12 mx-auto mb-2 text-3xl font-semibold text-center">A couple of my projects:</h1>
         <Projects class="pl-3 pr-3" />
       </div>
     </div>
