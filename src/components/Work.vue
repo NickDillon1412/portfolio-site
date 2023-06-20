@@ -1,8 +1,8 @@
 <template>
     <div class="w-10/12 px-2 py-8 rounded-md">
-        <ul class="relative border-l border-slate-300 dark:border-slate-700 space-y-14">                  
+        <ul class="relative border-l-2 border-slate-300 dark:border-slate-700 space-y-14">                  
             <li v-for="work in workExperience" :key="work.title" class="ml-6">      
-                <span class="absolute flex items-center justify-center w-8 h-8 rounded-full bg-blue-950 -left-4 ring-8 ring-blue-950">
+                <span class="absolute flex items-center justify-center w-8 h-8 rounded-full bg-slate-50 dark:bg-[#18192c] -left-4 ring-8 ring-slate-50 dark:ring-[#18192c]">
                     <img class="dark:shadow-lg" :src="`../images/${work.image}`" :alt="work.title"/>
                 </span>
                 <div class="items-center justify-between ml-2 dark:shadow-sm sm:flex">
