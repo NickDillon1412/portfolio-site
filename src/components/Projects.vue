@@ -1,20 +1,20 @@
 <template>
-  <div class="sm:flex-row">
-    <div class="grid grid-cols-1 gap-2 mt-6 mb-6 sm:grid-cols-2 gap-y-5">
-      <div v-for="project in projects" :key="project.title" class="mx-auto text-lg font-semibold border-2 cursor-pointer sm:w-10/12 text-gray-50 bg-[#363d68] rounded-md border-[#363d68] hover:border-[#33d492] dark:hover:border-slate-200">
+  <div class="flex flex-col space-y-6 md:space-y-0 md:space-x-8 md:flex-row text-slate-100">
+    <div class="grid grid-cols-1 gap-8 mt-6 mb-6 sm:grid-cols-2 gap-y-5">
+      <div v-for="project in projects" :key="project.title" class="mx-auto shadow-md bg-[#363d68] text-lg font-semibold border-2 cursor-pointer w-full text-gray-50 rounded-md border-[#363d68] hover:border-[#33d492] dark:hover:border-slate-200">
         <a :href="project.url">
           <div>
-            <img class="object-cover w-full h-64 sm:h-64 rounded-t-md" :src="`../images/${project.image}`" :alt="project.title" />
+            <img class="object-cover w-full h-64 rounded-t sm:h-64" :src="`../images/${project.image}`" :alt="project.title" />
+          </div>
+          <div class="p-5 bg-[#363d68] rounded-b">
+            <h1>{{ project.title }}</h1>
+            <div>
+              <ul v-for="tech in project.technologies" class="inline-block pt-3 text-xs">
+                <li class="p-1 mr-2 border rounded dark:border-white">{{ tech }}</li>
+              </ul>
+            </div>
           </div>
         </a>
-        <div class="p-3 bg-[#363d68] rounded-b-md">
-          <h1>{{ project.title }}</h1>
-          <div>
-            <ul v-for="tech in project.technologies" class="inline-block pt-3 text-xs">
-              <li class="p-1 mr-2 border rounded dark:border-white">{{ tech }}</li>
-            </ul>
-          </div>
-        </div>
       </div>
     </div>
   </div>
