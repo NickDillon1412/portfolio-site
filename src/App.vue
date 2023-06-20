@@ -42,8 +42,6 @@
 <script setup>
 import { RouterView } from "vue-router";
 import { useDark, useToggle } from "@vueuse/core";
-import SunLightIcon from '~icons/ph/sun';
-import MoonIcon from '~icons/ph/moon';
 
 const isDark = useDark();
 const toggleDark = useToggle(isDark);
