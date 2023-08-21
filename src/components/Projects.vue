@@ -1,5 +1,5 @@
 <template>
-	<div class="flex flex-col space-y-6 md:space-y-0 md:space-x-8 md:flex-row text-slate-100">
+	<!-- <div class="flex flex-col space-y-6 md:space-y-0 md:space-x-8 md:flex-row text-slate-100">
 		<div class="grid grid-cols-1 gap-8 mt-6 mb-6 sm:grid-cols-2 gap-y-5">
 			<div v-for="project in projects" :key="project.title"
 				class="mx-auto hover:shadow-2xl hover:ease-in-out hover:scale-105 duration-300 hover:shadow-pink-500/75 bg-[#363d68] text-lg font-semibold border-2 cursor-pointer w-full text-gray-50 rounded-md border-[#363d68] hover:-rotate-2">
@@ -18,6 +18,26 @@
 					</div>
 				</a>
 			</div>
+		</div>
+	</div> -->
+
+	<div class="flex flex-col justify-center mx-auto mt-6 mb-6 space-x-0 space-y-8 sm:space-y-0 sm:space-x-6 md:flex-row">
+		<div v-for="project in projects" :key="project.title">
+			<a :href="project.url">
+				<div
+					class="flex flex-col items-center duration-300 ease-in-out text-slate-800 hover:scale-110 hover:-rotate-2 group">
+					<div class="w-10/12">
+						<img class="object-cover h-64 rounded-t sm:h-64" :src="`../images/${project.image}`"
+							:alt="project.title" />
+					</div>
+					<div class="p-5 bg-white rounded w-[400px] group-hover:shadow-2xl group-hover:shadow-pink-500/75">
+						<h1 class="font-semibold">{{ project.title }}</h1>
+						<ul v-for="tech in project.technologies" class="inline-block pt-3 text-xs">
+							<li class="p-1 mr-2 tracking-wide border rounded">{{ tech }}</li>
+						</ul>
+					</div>
+				</div>
+			</a>
 		</div>
 	</div>
 </template>
