@@ -2,7 +2,7 @@
 	<div class="flex flex-col space-y-6 md:space-y-0 md:space-x-8 md:flex-row text-slate-100">
 		<div class="grid grid-cols-1 gap-8 mt-6 mb-6 sm:grid-cols-2 gap-y-5">
 			<div v-for="project in projects" :key="project.title"
-				class="mx-auto hover:shadow-2xl hover:ease-in-out hover:scale-105 duration-300 hover:shadow-pink-500/75 bg-[#363d68] text-lg font-semibold border-2 cursor-pointer w-full text-gray-50 rounded-md border-[#363d68] hover:-rotate-3">
+				class="mx-auto hover:shadow-2xl hover:ease-in-out hover:scale-105 duration-300 hover:shadow-pink-500/75 bg-[#363d68] text-lg font-semibold border-2 cursor-pointer w-full text-gray-50 rounded-md border-[#363d68] hover:-rotate-2">
 				<a :href="project.url">
 					<div>
 						<img class="object-cover w-full h-64 rounded-t sm:h-64" :src="`../images/${project.image}`"

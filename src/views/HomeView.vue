@@ -4,7 +4,7 @@
 			<h1 class="p-1 text-5xl italic font-bold">
 				Hey, I'm Nick!
 			</h1>
-			<img class=" shadow-3xl rounded-3xl w-72 h-72" src="/images/profile.jpg" alt="Profile Image">
+			<img class="w-64 h-64 sm:w-72 sm:h-72 shadow-3xl rounded-3xl" src="/images/profile.jpg" alt="Profile Image">
 			<p class="text-xl font-semibold">
 				I'm a full stack developer, primarily working with the TALL stack, but I also love
 				using Vue.js and Inertia.js. I'm also a huge fan of coffee, I love listening to music, and I play
