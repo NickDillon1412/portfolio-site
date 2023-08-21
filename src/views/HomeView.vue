@@ -1,37 +1,36 @@
 <template>
-  <div class="text-[#18192c] dark:text-slate-100">
-    <div class="flex items-center justify-center w-11/12 mx-auto mt-1 md:mt-8">
-      <div class="flex flex-col items-center md:flex-row sm:justify-between">
-        <div class="flex flex-col max-w-lg px-4 mb-4">
-          <h1 class="mb-5 text-4xl font-bold text-center sm:text-left">A little about me...</h1>
-          <p class="text-xl font-semibold sm:mr-8 sm:pl-0">
-            Hey! I'm Nick, and I'm a full stack developer. I love creating web applications, solving real-world problems, and learning new things every day. I'm also a huge fan of coffee, I love music, and I play the drums.
-          </p>
-          <Socials class="pl-0 mt-5 mb-20 md:mb-5" />
-        </div>
-        <img class="rounded-full shadow-md w-72 h-72" src="/images/profile.jpg" alt="Profile Image">
-      </div>
-    </div>
+	<div class="pt-24 sm:pt-44 text-slate-50">
+		<div class="flex flex-col items-center max-w-lg px-8 mx-auto space-y-4 text-center sm:px-4">
+			<h1 class="p-1 text-5xl italic font-bold">
+				Hey, I'm Nick!
+			</h1>
+			<img class=" shadow-3xl rounded-3xl w-72 h-72" src="/images/profile.jpg" alt="Profile Image">
+			<p class="text-xl font-semibold">
+				I'm a full stack developer, primarily working with the TALL stack, but I also love
+				using Vue.js and Inertia.js. I'm also a huge fan of coffee, I love listening to music, and I play
+				the drums.
+			</p>
+		</div>
 
-    <div class="flex flex-col items-center justify-center mt-24 sm:mt-32 text-[#18192c] dark:text-slate-100">
-      <h1 class="w-9/12 mb-3 text-3xl font-semibold text-center">Technologies I use on a daily basis:</h1>
-      <Technologies />
-    </div>
+		<div class="flex flex-col items-center justify-center mt-24 sm:mt-32">
+			<h1 class="w-9/12 mb-3 text-3xl font-semibold text-center">Technologies I work with:</h1>
+			<Technologies />
+		</div>
 
-    <div class="mt-24 sm:mt-32 text-[#18192c] dark:text-slate-100">
-      <h1 class="w-9/12 mx-auto text-3xl font-semibold text-center mb-7">My work experience:</h1>
-      <div class="flex justify-center w-10/12 mx-auto border-2 rounded-md md:max-w-xl border-slate-300 dark:border-slate-700">
-        <Work />
-      </div>
-    </div>
+		<div class="mt-24 sm:mt-32">
+			<h1 class="w-9/12 mx-auto text-3xl font-semibold text-center mb-7">My work experience:</h1>
+			<div class="flex justify-center w-10/12 mx-auto border-2 rounded-md bg-[#18192c] md:max-w-xl border-slate-700">
+				<Work />
+			</div>
+		</div>
 
-    <div class="flex flex-col items-center justify-center mt-24 sm:mt-32 mb-14">
-      <div class="p-4">
-        <h1 class="w-9/12 mx-auto mb-2 text-3xl font-semibold text-center">A couple of my projects:</h1>
-        <Projects class="pl-3 pr-3" />
-      </div>
-    </div>
-  </div>
+		<div class="flex flex-col items-center justify-center mt-24 sm:mt-32 mb-14">
+			<div class="p-4">
+				<h1 class="w-9/12 mx-auto mb-2 text-3xl font-semibold text-center">A couple of my projects:</h1>
+				<Projects class="pl-3 pr-3" />
+			</div>
+		</div>
+	</div>
 </template>
 
 <script setup>
@@ -39,4 +38,5 @@ import Technologies from "../components/Technologies.vue";
 import Projects from "../components/Projects.vue";
 import Socials from "../components/Socials.vue";
 import Work from "../components/Work.vue";
+import Arrow from "../components/Arrow.vue";
 </script>
