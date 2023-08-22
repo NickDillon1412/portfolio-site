@@ -1,8 +1,13 @@
 <template>
 	<div class="pt-24 sm:pt-28 text-slate-50">
 		<div class="flex flex-col items-center max-w-xl px-8 mx-auto space-y-4 text-center sm:px-4">
-			<h1 class="p-1 text-5xl italic font-bold">
-				Hey, I'm Nick!
+			<h1 class="p-1 italic font-bold">
+				<div
+					class="relative flex items-center justify-center w-full h-16 px-1 text-base font-bold text-opacity-100 transition-all duration-300 rounded outline-none cursor-pointer group lg:w-auto lg:h-auto lg:inline-block active:ring-0 active:outline-none">
+					<span class="relative z-20 text-5xl">Hi, I'm Nick!</span>
+					<span
+						class="absolute bottom-0 left-0 z-10 w-full h-3 transition-all duration-300 ease-out -skew-x-12 bg-pink-400"></span>
+				</div>
 			</h1>
 			<img class="w-64 h-64 sm:w-72 sm:h-72 shadow-3xl rounded-3xl" src="/images/profile.jpg" alt="Profile Image">
 			<p class="w-10/12 text-xl font-semibold sm:w-full">
