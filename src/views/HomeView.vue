@@ -5,7 +5,7 @@
 				Hey, I'm Nick!
 			</h1>
 			<img class="w-64 h-64 sm:w-72 sm:h-72 shadow-3xl rounded-3xl" src="/images/profile.jpg" alt="Profile Image">
-			<p class="max-w-md text-xl font-semibold">
+			<p class="w-10/12 text-xl font-semibold sm:w-full">
 				I'm a full stack developer, primarily working with the TALL stack, but I also love
 				using Vue.js and Inertia.js.
 			</p>
@@ -26,7 +26,7 @@
 
 		<div class="flex flex-col items-center justify-center mt-24 sm:mt-32 mb-14">
 			<div class="p-4">
-				<h1 class="mx-auto mb-2 text-3xl font-semibold text-center">A couple of my projects:</h1>
+				<h1 class="w-7/12 mx-auto mb-8 text-3xl font-semibold text-center sm:mb-6">A couple of my projects:</h1>
 				<Projects class="pl-3 pr-3" />
 			</div>
 		</div>

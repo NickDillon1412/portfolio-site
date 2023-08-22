@@ -1,5 +1,5 @@
 <template>
-	<div class="flex flex-col mt-6 mb-6 space-y-8 sm:space-y-0 sm:space-x-8 sm:flex-row text-slate-800">
+	<div class="flex flex-col space-y-8 sm:space-y-0 sm:space-x-8 sm:flex-row text-slate-800">
 		<div v-for="project in projects" :key="project.title">
 			<div class="">
 				<a :href="project.url" target="_blank">
