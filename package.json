@@ -13,7 +13,8 @@
     "axios": "^1.1.3",
     "pinia": "^2.0.23",
     "vue": "^3",
-    "vue-router": "^4.1.5"
+    "vue-router": "^4.1.5",
+    "vue-typewriter-effect": "^1.0.1"
   },
   "devDependencies": {
     "@iconify/json": "^2.1.135",
