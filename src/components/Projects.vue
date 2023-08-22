@@ -11,7 +11,7 @@
 								project.title }}</h5>
 							<ul v-for="tech in project.technologies" class="inline-block pt-3 text-xs">
 								<li
-									class="p-1 px-2 mr-2 font-semibold bg-pink-400 rounded-full shadow-md text-slate-50 shadow-pink-300/50">
+									class="p-1 px-2 mr-2 font-semibold text-pink-600 bg-pink-200 rounded-full shadow shadow-pink-200/75">
 									{{ tech }}</li>
 							</ul>
 						</div>
