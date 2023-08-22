@@ -6,7 +6,7 @@
             " src="/src/assets/blur.svg" class="absolute top-0 sm:-top-10 -inset-px opacity-[.8s]">
 
 			<div class="z-0 flex flex-col items-center space-y-4">
-				<img class="w-64 h-64 duration-500 ease-in-out rounded-full sm:w-44 sm:h-44 shadow-3xl grayscale hover:grayscale-0"
+				<img class="w-64 h-64 duration-500 ease-in-out rounded-full sm:w-56 sm:h-56 shadow-3xl"
 					src="/images/profile.jpg" alt="Profile Image">
 				<h1 class="italic font-bold">
 					<div
