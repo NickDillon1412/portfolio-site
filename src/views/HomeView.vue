@@ -1,7 +1,7 @@
 <template>
 	<div class="pt-24 sm:pt-28 text-slate-50">
 		<div class="flex flex-col items-center max-w-xl px-8 mx-auto space-y-4 text-center sm:px-4">
-			<h1 class="p-1 italic font-bold">
+			<h1 class="p-2 italic font-bold">
 				<div
 					class="relative flex items-center justify-center w-full h-16 px-1 text-base font-bold text-opacity-100 transition-all duration-300 rounded outline-none cursor-pointer group lg:w-auto lg:h-auto lg:inline-block active:ring-0 active:outline-none">
 					<span class="relative z-20 text-5xl">Hi, I'm Nick!</span>
