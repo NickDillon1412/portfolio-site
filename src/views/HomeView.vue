@@ -30,7 +30,7 @@
 			</div>
 		</div>
 
-		<div class="flex flex-col items-center justify-center mt-24 sm:mt-40">
+		<div class="flex flex-col items-center justify-center mt-32 sm:mt-40">
 			<h1 class="w-9/12 mb-3 text-3xl font-semibold text-center">My favorite technologies:</h1>
 			<Technologies />
 		</div>
