@@ -1,5 +1,5 @@
 <template>
-	<div class="pt-32 sm:pt-28 text-slate-50">
+	<div class="pt-32 text-slate-50">
 		<div class="flex flex-col items-center max-w-xl px-8 mx-auto space-y-4 text-center sm:px-4">
 			<h1 class="italic font-bold">
 				<div
@@ -23,7 +23,7 @@
 			</div>
 		</div>
 
-		<div class="flex flex-col items-center justify-center mt-24 sm:mt-32">
+		<div class="flex flex-col items-center justify-center mt-24 sm:mt-40">
 			<h1 class="w-9/12 mb-3 text-3xl font-semibold text-center">My favorite technologies:</h1>
 			<Technologies />
 		</div>
