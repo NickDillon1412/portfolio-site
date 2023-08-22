@@ -1,9 +1,9 @@
 <template>
-	<div class="pt-24 sm:pt-28 text-slate-50">
+	<div class="pt-28 sm:pt-28 text-slate-50">
 		<div class="flex flex-col items-center max-w-xl px-8 mx-auto space-y-4 text-center sm:px-4">
-			<h1 class="px-4 italic font-bold">
+			<h1 class="italic font-bold">
 				<div
-					class="relative items-center justify-center inline-block w-auto h-auto px-1 text-base font-bold text-opacity-100 transition-all duration-300 rounded outline-none cursor-pointer group active:ring-0 active:outline-none">
+					class="relative items-center justify-center inline-block w-auto h-auto px-2 text-base font-bold text-opacity-100 transition-all duration-300 rounded outline-none cursor-pointer group active:ring-0 active:outline-none">
 					<span class="relative z-20 text-5xl">Hi, I'm Nick!</span>
 					<span
 						class="absolute bottom-0 left-0 z-10 w-full h-3 transition-all duration-300 ease-out -skew-x-12 bg-pink-400"></span>
