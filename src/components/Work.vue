@@ -2,8 +2,7 @@
     <div class="w-10/12 px-2 py-8 rounded-md text-slate-50">
         <ul class="relative border-l-2 border-slate-700 space-y-14">
             <li v-for="work in workExperience" :key="work.title" class="ml-6">
-                <span
-                    class="absolute flex items-center justify-center w-8 h-8 rounded-full bg-[#18192c] -left-4 ring-8 ring-[#18192c]">
+                <span class="absolute flex items-center justify-center w-8 h-8 rounded-full -left-4 ring-8 ring-[#18192c]">
                     <img class="shadow-lg" :src="`../images/${work.image}`" :alt="work.title" />
                 </span>
                 <div class="items-center justify-between ml-2 shadow-sm sm:flex">
