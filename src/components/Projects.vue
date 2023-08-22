@@ -1,43 +1,23 @@
 <template>
-	<!-- <div class="flex flex-col space-y-6 md:space-y-0 md:space-x-8 md:flex-row text-slate-100">
-		<div class="grid grid-cols-1 gap-8 mt-6 mb-6 sm:grid-cols-2 gap-y-5">
-			<div v-for="project in projects" :key="project.title"
-				class="mx-auto hover:shadow-2xl hover:ease-in-out hover:scale-105 duration-300 hover:shadow-pink-500/75 bg-[#363d68] text-lg font-semibold border-2 cursor-pointer w-full text-gray-50 rounded-md border-[#363d68] hover:-rotate-2">
-				<a :href="project.url">
-					<div>
-						<img class="object-cover w-full h-64 rounded-t sm:h-64" :src="`../images/${project.image}`"
-							:alt="project.title" />
-					</div>
-					<div class="p-5 bg-[#363d68] rounded-b">
-						<h1>{{ project.title }}</h1>
-						<div>
+	<div class="flex flex-col mt-6 mb-6 space-y-8 sm:space-y-0 sm:space-x-8 sm:flex-row text-slate-800">
+		<div v-for="project in projects" :key="project.title">
+			<div class="">
+				<a :href="project.url" target="_blank">
+					<div
+						class="max-w-sm duration-300 ease-in-out bg-white border border-gray-200 rounded-lg shadow-2xl hover:shadow-pink-500 hover:scale-105 hover:-rotate-2">
+						<img class="rounded-t-lg" :src="`../images/${project.image}`" :alt="project.title" />
+						<div class="p-5">
+							<h5 class="text-2xl font-bold tracking-tight">{{
+								project.title }}</h5>
 							<ul v-for="tech in project.technologies" class="inline-block pt-3 text-xs">
-								<li class="p-1 mr-2 tracking-wide border rounded dark:border-white">{{ tech }}</li>
+								<li
+									class="p-1 px-2 mr-2 font-semibold bg-pink-400 rounded-full shadow-md text-slate-50 shadow-pink-300/50">
+									{{ tech }}</li>
 							</ul>
 						</div>
 					</div>
 				</a>
 			</div>
-		</div>
-	</div> -->
-
-	<div class="flex flex-col justify-center mx-auto mt-6 mb-6 space-x-0 space-y-8 sm:space-y-0 sm:space-x-6 md:flex-row">
-		<div v-for="project in projects" :key="project.title">
-			<a :href="project.url">
-				<div
-					class="flex flex-col items-center duration-300 ease-in-out text-slate-800 hover:scale-110 hover:-rotate-2 group">
-					<div class="w-10/12">
-						<img class="object-cover h-64 rounded-t sm:h-64" :src="`../images/${project.image}`"
-							:alt="project.title" />
-					</div>
-					<div class="p-5 bg-white rounded w-[400px] group-hover:shadow-2xl group-hover:shadow-pink-500/75">
-						<h1 class="font-semibold">{{ project.title }}</h1>
-						<ul v-for="tech in project.technologies" class="inline-block pt-3 text-xs">
-							<li class="p-1 mr-2 tracking-wide border rounded">{{ tech }}</li>
-						</ul>
-					</div>
-				</div>
-			</a>
 		</div>
 	</div>
 </template>

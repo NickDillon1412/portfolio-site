@@ -1,5 +1,5 @@
 <template>
-	<div class="pt-20 sm:pt-44 text-slate-50">
+	<div class="pt-20 sm:pt-32 text-slate-50">
 		<div class="flex flex-col items-center max-w-xl px-8 mx-auto space-y-4 text-center sm:px-4">
 			<h1 class="p-1 text-5xl italic font-bold">
 				Hey, I'm Nick!
