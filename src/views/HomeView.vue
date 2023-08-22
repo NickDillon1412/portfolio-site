@@ -2,9 +2,8 @@
 	<div class="pt-32 text-slate-50">
 		<div class="relative flex max-w-xl mx-auto text-center group sm:px-4">
 			<img style="
-				opacity: .6s;
 				animation: pulse 3s ease-in-out infinite;
-            " src="/src/assets/blur.svg" class="absolute top-0 sm:-top-10 -inset-px">
+            " src="/src/assets/blur.svg" class="absolute top-0 sm:-top-10 -inset-px opacity-[.8s]">
 
 			<div class="z-0 flex flex-col items-center space-y-4">
 				<h1 class="italic font-bold">
@@ -17,7 +16,7 @@
 				</h1>
 				<img class="w-64 h-64 duration-500 ease-in-out sm:w-72 sm:h-72 shadow-3xl rounded-3xl grayscale hover:grayscale-0"
 					src="/images/profile.jpg" alt="Profile Image">
-				<p class="w-10/12 text-xl font-semibold sm:w-full">
+				<p class="w-9/12 text-xl font-semibold sm:w-full">
 					I'm a full stack developer, primarily working with the TALL stack, but I also love
 					using Vue.js and Inertia.js.
 				</p>
