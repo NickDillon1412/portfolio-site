@@ -16,7 +16,6 @@
 							class="absolute bottom-0 left-0 z-10 w-full h-3 transition-all duration-300 ease-out -skew-x-12 bg-pink-400"></span>
 					</div>
 				</h1>
-
 			</div>
 			<p class="w-9/12 text-xl font-semibold sm:w-full">
 				I'm a full stack developer, working with <vue-typewriter-effect
@@ -24,7 +23,7 @@
 			</p>
 		</div>
 
-		<div class="mt-24 sm:mt-40">
+		<div class="mt-32 sm:mt-40">
 			<h1 class="w-9/12 mx-auto text-3xl font-semibold text-center mb-7">My work experience:</h1>
 			<div class="flex justify-center w-10/12 mx-auto border-2 rounded-md bg-[#18192c] md:max-w-xl border-slate-700">
 				<Work />
