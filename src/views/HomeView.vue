@@ -38,7 +38,8 @@
 
 		<div class="flex flex-col items-center justify-center mt-24 sm:mt-32 mb-14">
 			<div class="p-4">
-				<h1 class="w-7/12 mx-auto mb-8 text-3xl font-semibold text-center sm:mb-6">A couple of my projects:</h1>
+				<h1 class="w-8/12 mx-auto mb-8 text-3xl font-semibold text-center sm:w-7/12 sm:mb-6">A couple of my
+					projects:</h1>
 				<Projects class="pl-3 pr-3" />
 			</div>
 		</div>
