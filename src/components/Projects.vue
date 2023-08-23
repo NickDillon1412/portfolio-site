@@ -4,7 +4,7 @@
 			<div class="">
 				<a :href="project.url" target="_blank">
 					<div
-						class="max-w-sm duration-300 ease-in-out bg-white border border-gray-200 rounded-lg shadow-2xl hover:shadow-pink-500 hover:scale-105 hover:-rotate-2">
+						class="max-w-md duration-300 ease-in-out bg-white border border-gray-200 rounded-lg shadow-2xl hover:shadow-pink-500 hover:scale-105 hover:-rotate-2">
 						<img class="rounded-t-lg" :src="`../images/${project.image}`" :alt="project.title" />
 						<div class="p-5">
 							<h5 class="text-2xl font-bold tracking-tight">{{
