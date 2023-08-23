@@ -9,9 +9,9 @@
 						<div class="p-5">
 							<h5 class="text-2xl font-bold tracking-tight">{{
 								project.title }}</h5>
-							<ul v-for="tech in project.technologies" class="inline-block pt-3 text-xs">
+							<ul v-for="tech in project.technologies" class="inline-block pt-3">
 								<li
-									class="p-1 px-2 mr-2 font-semibold text-pink-600 bg-pink-200 rounded-full shadow shadow-pink-200/75">
+									class="px-2 py-0.5 mr-2 text-sm font-semibold text-pink-600 bg-pink-200 rounded-full shadow-sm shadow-pink-200/75">
 									{{ tech }}</li>
 							</ul>
 						</div>
