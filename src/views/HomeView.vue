@@ -13,7 +13,7 @@
 						class="relative items-center justify-center inline-block w-auto h-auto px-1 mb-2 text-base font-bold text-opacity-100 transition-all duration-300 rounded outline-none group active:ring-0 active:outline-none">
 						<span class="relative z-20 p-1 text-5xl">Hi, I'm Nick!</span>
 						<span
-							class="absolute bottom-0 left-0 z-10 w-full h-3 transition-all duration-300 ease-out -skew-x-12 bg-pink-500"></span>
+							class="absolute bottom-0 left-0 z-10 w-full h-3 transition-all duration-300 ease-out -skew-x-12 bg-pink-400"></span>
 					</div>
 				</h1>
 			</div>
