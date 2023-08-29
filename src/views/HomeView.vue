@@ -1,9 +1,8 @@
 <template>
 	<div class="pt-32 text-slate-50">
 		<div class="relative flex flex-col items-center max-w-xl mx-auto space-y-4 text-center group sm:px-4">
-			<img style="
-				animation: pulse 3s ease-in-out infinite;
-            " src="/src/assets/blur.svg" class="absolute top-0 sm:-top-10 -inset-px opacity-[.8s]">
+			<img src="/src/assets/blur.svg"
+				class="absolute top-0 sm:-top-10 -inset-px opacity-[.8s] animate-[pulse_3s_ease-in-out_infinite]">
 
 			<div class="z-0 flex flex-col items-center space-y-4">
 				<img class="w-64 h-64 duration-500 ease-in-out rounded-full sm:w-56 sm:h-56 shadow-3xl"
