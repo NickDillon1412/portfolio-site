@@ -38,7 +38,7 @@ const workExperience = ref({
         title: 'Build Online',
         position: 'Full Stack Developer',
         time: 'Summer 2021',
-        image: 'buildonline-logo.png'
+        image: 'build-online.png'
     }
 });
 </script>
