@@ -1,6 +1,6 @@
 <template>
-	<div class="p-4 space-y-2 md:space-y-12">
-		<div class="grid grid-cols-2 gap-4 md:flex md:justify-center md:space-x-2 flex:space-y-4 md:space-y-0">
+	<div class="p-4 space-y-8 md:space-y-12">
+		<div class="grid grid-cols-2 gap-8 md:flex md:justify-center md:space-x-2 flex:space-y-4 md:space-y-0">
 			<div v-for="technology in technologies.tallStack" :key="technology.title"
 				class="p-2 duration-300 hover:shadow-2xl hover:ease-in-out hover:scale-125 hover:shadow-pink-500 hover:bg-slate-50 hover:text-slate-800 hover:rounded hover:-rotate-3 w-36">
 				<a :href="technology.url" target="_blank">
@@ -14,7 +14,7 @@
 			</div>
 		</div>
 
-		<div class="grid grid-cols-2 gap-4 md:flex md:justify-center md:space-x-2 flex:space-y-4 md:space-y-0">
+		<div class="grid grid-cols-2 gap-8 md:flex md:justify-center md:space-x-2 flex:space-y-4 md:space-y-0">
 			<div v-for="technology in technologies.other" :key="technology.title"
 				class="p-2 duration-300 hover:shadow-2xl hover:ease-in-out hover:scale-125 hover:shadow-pink-500 hover:bg-slate-50 hover:text-slate-800 hover:rounded hover:-rotate-3 w-36">
 				<a :href="technology.url" target="_blank">
