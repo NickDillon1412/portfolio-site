@@ -1,6 +1,6 @@
 <template>
 	<div class="p-4 space-y-2 md:space-y-12">
-		<div class="grid grid-cols-2 gap-4 md:flex md:justify-center md:space-x-2 flex:space-y-4 md:space-y-0">
+		<div class="grid grid-cols-1 gap-4 md:flex md:justify-center md:space-x-2 flex:space-y-4 md:space-y-0">
 			<div v-for="technology in technologies.tallStack" :key="technology.title"
 				class="p-2 duration-300 hover:shadow-2xl hover:ease-in-out hover:scale-125 hover:shadow-pink-500 hover:bg-slate-50 hover:text-slate-800 hover:rounded hover:-rotate-3 w-36">
 				<a :href="technology.url" target="_blank">
@@ -15,8 +15,8 @@
 		</div>
 
 		<div class="grid grid-cols-1 gap-4 md:flex md:justify-center md:space-x-2 flex:space-y-4 md:space-y-0">
-			<div v-for="technology in technologies.js" :key="technology.title"
-				class="row-start-2 p-2 duration-300 hover:shadow-2xl hover:scale-125 hover:ease-in-out hover:shadow-pink-500 hover:bg-slate-50 hover:text-slate-800 hover:-rotate-3 hover:rounded w-36">
+			<div v-for="technology in technologies.other" :key="technology.title"
+				class="row-start-2 p-2 duration-300 w-36 hover:shadow-2xl hover:scale-125 hover:ease-in-out hover:shadow-pink-500 hover:bg-slate-50 hover:text-slate-800 hover:-rotate-3 hover:rounded">
 				<a :href="technology.url" target="_blank">
 					<div class="flex justify-center mb-1.5">
 						<img :src="`../images/${technology.image}`" :alt="technology.title" />
@@ -56,7 +56,12 @@ const technologies = ref({
 			title: 'Livewire'
 		},
 	},
-	js: {
+	other: {
+		filament: {
+			url: 'https://filamentphp.com/',
+			image: 'filament-logo.svg',
+			title: 'Filament'
+		},
 		vuejs: {
 			url: 'https://vuejs.org/',
 			image: 'vue.svg',
