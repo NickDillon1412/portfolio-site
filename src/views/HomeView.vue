@@ -18,7 +18,7 @@
 			</div>
 			<p class="w-9/12 text-xl font-semibold sm:w-full">
 				I'm a full stack developer, working with <vue-typewriter-effect
-					:strings="['the TALL stack.', 'Vue.js.', 'Inertia.js.']" />
+					:strings="['the TALL stack.', 'Filament.', 'Vue.js.', 'Inertia.js.']" />
 			</p>
 		</div>
 
