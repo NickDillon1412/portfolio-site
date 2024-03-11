@@ -8,8 +8,9 @@
                 </span>
                 <div class="items-center justify-between ml-2 shadow-sm sm:flex">
                     <time
-                        class="flex flex-col mb-1 text-xs font-normal sm:text-center sm:order-last sm:mb-0 whitespace-nowrap">
+                        class="flex mb-1 text-xs font-normal sm:flex-col sm:text-center sm:order-last sm:mb-0 whitespace-nowrap">
                         <span>{{ work.time }}</span>
+                        <span class="block px-1 sm:hidden">•</span>
                         <span>{{ work.duration }}</span>
                     </time>
                     <div class="text-sm">
