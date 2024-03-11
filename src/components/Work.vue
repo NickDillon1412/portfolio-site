@@ -35,9 +35,17 @@ const calculateDuration = ((date) => {
     let years = Math.floor(diff / (1000 * 60 * 60 * 24 * 365));
     let months = Math.floor((diff % (1000 * 60 * 60 * 24 * 365)) / (1000 * 60 * 60 * 24 * 30));
 
-    return years < 1 ? (months > 1 ? `${months} months` : `${months} month`) :
-        years === 1 ? `${years} year ${months} months` :
-            months > 1 ? `${years} years ${months} months` : `${years} years ${months} month`;
+    if (years < 1) {
+        return months > 1 ? `${months} months` : `${months} month`;
+    } else if (years === 1) {
+        return months > 1 ? `${years} year ${months} months`
+            : months < 1 ? `${years} year`
+                : `${years} year ${months} month`;
+    } else {
+        return months > 1 ? `${years} years ${months} months`
+            : months < 1 ? `${years} years`
+                : `${years} years ${months} month`;
+    }
 });
 
 const workExperience = ref({
