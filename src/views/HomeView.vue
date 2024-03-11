@@ -12,7 +12,8 @@
 						class="relative items-center justify-center inline-block w-auto h-auto px-1 mb-2 text-base font-bold text-opacity-100 transition-all duration-300 rounded outline-none group active:ring-0 active:outline-none">
 						<span class="relative z-20 p-1 text-5xl">Hi, I'm Nick!</span>
 						<span
-							class="absolute bottom-0 left-0 z-10 w-full h-3 transition-all duration-300 ease-out -skew-x-12 bg-pink-400"></span>
+							class="absolute bottom-0 left-0 z-10 w-full h-3 transition-all duration-300 ease-out -skew-x-12 bg-pink-400">
+						</span>
 					</div>
 				</h1>
 			</div>
@@ -23,21 +24,27 @@
 		</div>
 
 		<div class="mt-32 px-7 sm:mt-40">
-			<h1 class="w-9/12 mx-auto text-3xl font-semibold text-center mb-7">My work experience:</h1>
+			<h1 class="w-9/12 mx-auto text-3xl font-semibold text-center mb-7">
+				My work experience:
+			</h1>
 			<div class="flex justify-center mx-auto border-2 rounded-md bg-[#18192c] md:max-w-xl border-slate-700">
 				<Work />
 			</div>
 		</div>
 
 		<div class="flex flex-col items-center justify-center mt-32 sm:mt-40">
-			<h1 class="w-9/12 mb-3 text-3xl font-semibold text-center">My favorite technologies:</h1>
+			<h1 class="w-9/12 mb-3 text-3xl font-semibold text-center">
+				My favorite technologies:
+			</h1>
 			<Technologies />
 		</div>
 
 
 		<div class="flex flex-col items-center justify-center mt-24 sm:mt-32 mb-14">
 			<div class="p-4">
-				<h1 class="w-7/12 mx-auto mb-8 text-3xl font-semibold text-center sm:mb-6">A couple of my projects:</h1>
+				<h1 class="w-7/12 mx-auto mb-8 text-3xl font-semibold text-center sm:mb-6">
+					A couple of my projects:
+				</h1>
 				<Projects class="pl-3 pr-3" />
 			</div>
 		</div>
