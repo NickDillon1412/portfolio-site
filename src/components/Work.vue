@@ -7,18 +7,18 @@
                     <img class="shadow-lg" :src="`../images/${work.image}`" :alt="work.title" />
                 </span>
                 <div class="items-center grid-cols-2 ml-2 shadow-sm sm:grid">
-                    <time
-                        class="flex col-span-1 mb-1 text-xs font-normal sm:pl-28 sm:flex-col sm:items-center sm:text-center sm:order-last sm:mb-0 whitespace-nowrap">
-                        <span>{{ work.time }}</span>
-                        <span class="block px-1 sm:hidden">•</span>
-                        <span>{{ work.duration }}</span>
-                    </time>
                     <div class="col-span-1 text-sm">
                         <a class="duration-300 ease-in-out cursor-pointer hover:text-slate-400" :href="work.url"
                             target="_blank">
                             <h1 class="text-xl font-semibold">{{ work.title }}</h1>
                         </a>
                         <h2 class="text-sm">{{ work.position }}</h2>
+                        <time
+                            class="flex col-span-1 mt-1 text-xs font-normal sm:pl-28 sm:flex-col sm:items-center sm:text-center whitespace-nowrap">
+                            <span>{{ work.time }}</span>
+                            <span class="block px-1 sm:hidden">•</span>
+                            <span>{{ work.duration }}</span>
+                        </time>
                     </div>
                 </div>
             </li>
