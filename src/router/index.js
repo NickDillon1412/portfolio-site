@@ -13,7 +13,7 @@ const router = createRouter({
 		component: HomeView,
 		props: true,
 		meta: {
-			title: "Nick Dillon Portfolio",
+			title: "Nick Dillon",
 		},
 	}],
 });
